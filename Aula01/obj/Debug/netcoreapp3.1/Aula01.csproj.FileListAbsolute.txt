@@ -1,0 +1,13 @@
+C:\Projetos\Pos\Blockchain\Aula01\bin\Debug\netcoreapp3.1\Aula01.exe
+C:\Projetos\Pos\Blockchain\Aula01\bin\Debug\netcoreapp3.1\Aula01.deps.json
+C:\Projetos\Pos\Blockchain\Aula01\bin\Debug\netcoreapp3.1\Aula01.runtimeconfig.json
+C:\Projetos\Pos\Blockchain\Aula01\bin\Debug\netcoreapp3.1\Aula01.runtimeconfig.dev.json
+C:\Projetos\Pos\Blockchain\Aula01\bin\Debug\netcoreapp3.1\Aula01.dll
+C:\Projetos\Pos\Blockchain\Aula01\bin\Debug\netcoreapp3.1\Aula01.pdb
+C:\Projetos\Pos\Blockchain\Aula01\obj\Debug\netcoreapp3.1\Aula01.csprojAssemblyReference.cache
+C:\Projetos\Pos\Blockchain\Aula01\obj\Debug\netcoreapp3.1\Aula01.AssemblyInfoInputs.cache
+C:\Projetos\Pos\Blockchain\Aula01\obj\Debug\netcoreapp3.1\Aula01.AssemblyInfo.cs
+C:\Projetos\Pos\Blockchain\Aula01\obj\Debug\netcoreapp3.1\Aula01.csproj.CoreCompileInputs.cache
+C:\Projetos\Pos\Blockchain\Aula01\obj\Debug\netcoreapp3.1\Aula01.dll
+C:\Projetos\Pos\Blockchain\Aula01\obj\Debug\netcoreapp3.1\Aula01.pdb
+C:\Projetos\Pos\Blockchain\Aula01\obj\Debug\netcoreapp3.1\Aula01.genruntimeconfig.cache

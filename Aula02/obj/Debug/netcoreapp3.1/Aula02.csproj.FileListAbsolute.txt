@@ -1,0 +1,15 @@
+C:\Projetos\Pos\Blockchain\Aula02\bin\Debug\netcoreapp3.1\Aula02.exe
+C:\Projetos\Pos\Blockchain\Aula02\bin\Debug\netcoreapp3.1\Aula02.deps.json
+C:\Projetos\Pos\Blockchain\Aula02\bin\Debug\netcoreapp3.1\Aula02.runtimeconfig.json
+C:\Projetos\Pos\Blockchain\Aula02\bin\Debug\netcoreapp3.1\Aula02.runtimeconfig.dev.json
+C:\Projetos\Pos\Blockchain\Aula02\bin\Debug\netcoreapp3.1\Aula02.dll
+C:\Projetos\Pos\Blockchain\Aula02\bin\Debug\netcoreapp3.1\Aula02.pdb
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.csprojAssemblyReference.cache
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.AssemblyInfoInputs.cache
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.AssemblyInfo.cs
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.dll
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.pdb
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.genruntimeconfig.cache
+C:\Projetos\Pos\Blockchain\Aula02\bin\Debug\netcoreapp3.1\ManagedOpenSsl.dll
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.csproj.CoreCompileInputs.cache
+C:\Projetos\Pos\Blockchain\Aula02\obj\Debug\netcoreapp3.1\Aula02.csproj.CopyComplete
