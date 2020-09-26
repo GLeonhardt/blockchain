@@ -29,8 +29,6 @@ namespace Aula01
                 hashes[i] = hash;
                 var hashAnterior = i == 0 ? "Vazio" : hashes[i - 1];
 
-                Console.WriteLine(hash);
-
                 var diretorioBlocos = $"{projectRoot}\\blocos";
                 if (!Directory.Exists(diretorioBlocos))
                     Directory.CreateDirectory(diretorioBlocos);
@@ -40,9 +38,18 @@ namespace Aula01
                     sw.WriteLine($"{mensagem}Hash: {hash}\nHash Anterior: {hashAnterior}");
                 }
             }
+
+            try
+            {
+                ValidarBlocos();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
-        static string sha256(string randomString)
+        private static string sha256(string randomString)
         {
             var crypt = new System.Security.Cryptography.SHA256Managed();
             var hash = new System.Text.StringBuilder();
@@ -52,6 +59,21 @@ namespace Aula01
                 hash.Append(theByte.ToString("x2"));
             }
             return hash.ToString();
+        }
+
+        private static void ValidarBlocos()
+        {
+            var blocos = Directory.GetFiles($"{projectRoot}blocos");
+            foreach (var bloco in blocos)
+            {
+                var conteudoBloco = File.ReadAllText(bloco);
+                var dados = conteudoBloco.Split("Hash:");
+                var hashGeradaConteudoArquivo = sha256(dados[0]);
+                var hashesSalvasArquivo = dados[1].Split("\n");
+                if (!hashGeradaConteudoArquivo.Equals(hashesSalvasArquivo[0].Trim()))
+                    throw new Exception($"A hash salva no arquivo é diferente da hash gerada a partir do seu conteudo. Arquivo: {bloco}");
+            }
+            Console.WriteLine("Os blocos são válidos");
         }
     }
 }
