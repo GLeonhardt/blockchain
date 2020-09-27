@@ -23,7 +23,7 @@ https://api.blockcypher.com/v1/btc/test3/txs/b648e739bc098e01548e3dcf89f10e9b668
 
 - Tranferindo:
 
-Ao utlizar como exemplo o código em Ruby dos slides para transferir dados comecei a ter problema em uma classe interna da lib de bitcoin, tentei resolver de diversas formas porém não consegui
+Ao utlizar como exemplo o código em Ruby dos slides para transferir dados comecei a ter problema em uma classe interna da lib de bitcoin, tentei resolver de diversas formas porém não houve sucesso.
 
 Erro:
 ```
