@@ -1,71 +1,35 @@
-﻿Public Key: mk6q56pd3TQc8oh58GhhcHW4wGs6WWw4NJ	
-Private Key: 93NtXN4BozWuWum6Fj5txp3PBaV3z9bvYySZhxk3CwzuWVBiUNk
+﻿Public Key: 042fa3b72f35805a4e0f0cab7640828916e8c1a668c45222e07405e3094e4e02b08dd4d49830aee229abebc0b45b666feac9f4a4c69a79e9ff46324ac11eec9cea
+Private Key: e9cee40902b784c8b374a5941c3d2b6d376f1f053d6684e69b5cb40556bc0c00
+Address: mrYcA5j1rUboTBjcgwurQYTxhuZ326L2uc
 
 
 Depositando na carteira:
 
 depósito feito pelo site `https://testnet-faucet.mempool.co/`
 
-```TxID: c594f9edddb488bf83954ba925fa6585af62c8111c3a56d82eb658605a8cd6aa
-Address: mk6q56pd3TQc8oh58GhhcHW4wGs6WWw4NJ
-Amount: 0.001```
+```
+TxID: b648e739bc098e01548e3dcf89f10e9b668b58f49546cdfde80d6f3769cc3114
+Address: mrYcA5j1rUboTBjcgwurQYTxhuZ326L2uc
+Amount: 0.001
+```
 
-Detalhes:
+- Detalhes:
 
 ```
-{
-  "block_height": -1,
-  "block_index": -1,
-  "hash": "c594f9edddb488bf83954ba925fa6585af62c8111c3a56d82eb658605a8cd6aa",
-  "hex": "02000000000101b22031a6a455d654196a7fd017564652d1e8b145f85cd1d4fd64b8faa848871001000000171600140a6c2d6ef35e61290944487d723dba57d18240e1feffffff0264f739000000000017a914faf925fa3ca4b4b16e618998de54b1ab92a00bf187a0860100000000001976a91432489db94143ca9ffb25f1940bd5084509b7b15488ac0247304402201b30f5058cfdbe8f05f0f671295fca72fa64bca2f508961192d1ee0d5c1f9cac022018de24ddfe3108bf71f7bc314376ff9747634f8e9132b4e0498d8c04b57f4eb80121025c0493fc99a3d01537c7c7c75a11501db44021e523172c09f7f9734ec02bc91db8041c00",
-  "addresses": [
-    "2MzZSwnUvA3igPG2CqicY8D4uUVBx5wcGeb",
-    "2NG8FPNYuNk8tKzEqLZ7UbHhAMr6AjHUu9x",
-    "mk6q56pd3TQc8oh58GhhcHW4wGs6WWw4NJ"
-  ],
-  "total": 3898884,
-  "fees": 168,
-  "size": 140,
-  "preference": "low",
-  "relayed_by": "147.135.11.107:18333",
-  "received": "2020-09-27T01:08:15.232Z",
-  "ver": 2,
-  "lock_time": 1836216,
-  "double_spend": false,
-  "vin_sz": 1,
-  "vout_sz": 2,
-  "confirmations": 0,
-  "inputs": [
-    {
-      "prev_hash": "108748a8fab864fdd4d15cf845b1e8d152465617d07f6a1954d655a4a63120b2",
-      "output_index": 1,
-      "script": "1600140a6c2d6ef35e61290944487d723dba57d18240e1",
-      "output_value": 3899052,
-      "sequence": 4294967294,
-      "addresses": [
-        "2MzZSwnUvA3igPG2CqicY8D4uUVBx5wcGeb"
-      ],
-      "script_type": "pay-to-script-hash",
-      "age": 1836215
-    }
-  ],
-  "outputs": [
-    {
-      "value": 3798884,
-      "script": "a914faf925fa3ca4b4b16e618998de54b1ab92a00bf187",
-      "addresses": [
-        "2NG8FPNYuNk8tKzEqLZ7UbHhAMr6AjHUu9x"
-      ],
-      "script_type": "pay-to-script-hash"
-    },
-    {
-      "value": 100000,
-      "script": "76a91432489db94143ca9ffb25f1940bd5084509b7b15488ac",
-      "addresses": [
-        "mk6q56pd3TQc8oh58GhhcHW4wGs6WWw4NJ"
-      ],
-      "script_type": "pay-to-pubkey-hash"
-    }
-  ]
-}
+https://api.blockcypher.com/v1/btc/test3/txs/b648e739bc098e01548e3dcf89f10e9b668b58f49546cdfde80d6f3769cc3114?limit=50&includeHex=true
+```
+
+- Tranferindo:
+
+Ao utlizar como exemplo o código em Ruby dos slides para transferir dados comecei a ter problema em uma classe interna da lib de bitcoin, tentei resolver de diversas formas porém não consegui
+
+Erro:
+```
+Traceback (most recent call last):
+        5: from send.rb:32:in `<main>'
+        4: from C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/bitcoin-ruby-0.0.20/lib/bitcoin/builder.rb:20:in `build_tx'
+        3: from send.rb:33:in `block in <main>'
+        2: from C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/bitcoin-ruby-0.0.20/lib/bitcoin/builder.rb:158:in `input'
+        1: from send.rb:36:in `block (2 levels) in <main>'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/bitcoin-ruby-0.0.20/lib/bitcoin/builder.rb:403:in `prev_out_index': undefined method `pk_script' for nil:NilClass (NoMethodError)
 ```
