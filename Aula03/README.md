@@ -1,6 +1,8 @@
-﻿﻿Public Key: 042fa3b72f35805a4e0f0cab7640828916e8c1a668c45222e07405e3094e4e02b08dd4d49830aee229abebc0b45b666feac9f4a4c69a79e9ff46324ac11eec9cea
-Private Key: e9cee40902b784c8b374a5941c3d2b6d376f1f053d6684e69b5cb40556bc0c00
-Address: mrYcA5j1rUboTBjcgwurQYTxhuZ326L2uc
+- Public Key: 042fa3b72f35805a4e0f0cab7640828916e8c1a668c45222e07405e3094e4e02b08dd4d49830aee229abebc0b45b666feac9f4a4c69a79e9ff46324ac11eec9cea
+  
+- Private Key: e9cee40902b784c8b374a5941c3d2b6d376f1f053d6684e69b5cb40556bc0c00
+
+- Address: mrYcA5j1rUboTBjcgwurQYTxhuZ326L2uc
 
 
 - Depositando na carteira:
